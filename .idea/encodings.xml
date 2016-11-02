@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/iGo-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/iGoManager" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/iGoManagerEntity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/iGoManagerMapper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/iGoManagerService" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/iGoManagerWeb" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

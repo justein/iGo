@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Annotation profile for iGo-common" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="iGo-common" />
+      </profile>
+      <profile default="false" name="Annotation profile for iGoManagerWeb" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="iGoManagerWeb" />
+      </profile>
+      <profile default="false" name="Annotation profile for iGoManagerService" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="iGoManagerService" />
+      </profile>
+      <profile default="false" name="Annotation profile for iGoManagerMapper" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="iGoManagerMapper" />
+      </profile>
+      <profile default="false" name="Annotation profile for iGoManagerEntity" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="iGoManagerEntity" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="iGo" target="1.7" />
+      <module name="iGo-common" target="1.7" />
+      <module name="iGoManager" target="1.7" />
+      <module name="iGoManagerEntity" target="1.7" />
+      <module name="iGoManagerMapper" target="1.7" />
+      <module name="iGoManagerService" target="1.7" />
+      <module name="iGoManagerWeb" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
